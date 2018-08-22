@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Agrega CSS Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <!--Agrega JQuery y JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js" ></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                        Elements
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="labels.html">Labels</a>
+                        <a class="dropdown-item" href="buttons.html">Buttons</a>
+                        <a class="dropdown-item" href="list.html">Group List</a>
+                        <a class="dropdown-item" href="progress.html">ProgressBar</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carrousel.html">Carrousel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="active nav-link" href="grid.html">Grid</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="container" >
+            <h1>BOOTSTRAP</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="main row">
+            <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9 col-xl-9">
+                <h3>¿QUE ES ?</h3>
+                <p>
+                    Bootstrap es un framework web o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web. Contiene
+                    plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos
+                    de diseño basado en HTML y CSS, así como extensiones de JavaScript adicionales. A diferencia de muchos
+                    frameworks web, solo se ocupa del desarrollo front-end.</p>
+                    <img src="img/bootstrap.png" alt="">
+            </article>
+
+            <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+                <h3>¿ PARA QUE SE USA ?</h3>
+                <p> Se usa para crear interfaces web con CSS y JavaScript, con la ventaja de que esta interfaz se adapta al dispositivo en la que se use, esto recibe el nombre de diseño adaptativo.
+                    </p>
+                <img src="img/bootstrap2.png" alt="">
+            </aside>
+        </section>
+
+        <div class="row">
+            <div class="color1 col-xs-12 col-sm-6 col-md-3">
+                <h3>DESVENTAJAS</h3>
+                <ol>
+                    <li>Mantenimiento: Es complicado, cambiar de versión si has realizado modificaciones profundas sobre el Core.</li> 
+                    <li>Ampliar componentes: Si necesitas añadir componentes que no existen, debes hacerlos tú mismo en CSS y cuidar de que mantenga coherencia con tu diseño y cuidando el responsive.</li>
+                    <li>Pesado: No es ligero, y además, para algunas funcionalidades, será necesario tener que usar JavaScript y jQuery.</li>
+                </ol>
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="color1 col-xs-12 col-sm-6 col-md-3">
+                <h3>VENTAJAS</h3>
+                <ol>
+                    <li>El haber sido creado por Twitter nos da ciertas garantías: está muy pensado y hay mucho trabajo ya hecho. Por lo tanto, hay una comunidad muy activa creando, arreglando cosas, ofreciendo plugins y mucho más..
+                        </li>
+                    <li>Se integra muy bien con las principales librerías Javascript.
+                        </li>
+                    <li>El grid system: maquetar por columnas nunca fue tan fácil. Además, son muy configurables.
+                        </li>
+                    <li>Sea lo que sea que creemos, el diseño será adaptable, no importa el dispositivo, la escala o resolución.
+                        </li>
+                    <li>Permite utilizar muchos elementos web: desde iconos a desplegables, combinando HTML5, CSS y Javascript.
+                        </li>
+                    <li>Puedes tener una web bien organizada de forma visual rápidamente: la curva de aprendizaje hace que su manejo sea asequible y rápido si ya sabes maquetar.
+                        </li>
+                </ol>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <h3></h3>
+                <p>        </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h3>SEBASTIAN RAMIREZ DAVID</h3>
+            <h3>LUIS FELIPE GARCIA HERRERA</h3>
+            <H3>JOSE MIGUEL MEJIA CHAVERRA</H3>
+        </div>
+    </footer>
+</body>
+
+</html>
